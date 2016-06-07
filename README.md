@@ -12,7 +12,7 @@ The machine will proceed to completely set up itself. There's one moment where m
 
 ###Phase 2: Light manual setup
 
-Once the cow tells you it's time, go to http://localhost:8091 on the dev machine and start the couchbase setup by clicking the button.
+Once the cow tells you it's time, go to [http://localhost:8091][5] on the dev machine and start the couchbase setup by clicking the button.
 
 #####Step 1:
 Change the "Data RAM Quota" field from 1200 to 1000 MB.
@@ -29,8 +29,9 @@ Disable software notifications.
 Agree to terms.
 
 #####Step 5:
-Username: Administrator
-Password: spirometer
+Username: `Administrator`
+
+Password: `spirometer`
 
 ###Phase 3: Populating the database
 
@@ -67,8 +68,11 @@ The full list of data can be found in the [database control panel][1]. Data entr
 ###Full code contents
 
 Data is spread over multiple repos.
+
 [This][2] repo contains the VM configuration and data import utility.
+
 [Spiro-server][3] contains the actual website code (test.js is the live code).
+
 [Spirometer-website][4] contains the statical front-end files.
 
 
@@ -76,4 +80,4 @@ Data is spread over multiple repos.
 [2]: https://github.com/detuur/ip-spiro-cloud
 [3]: https://github.com/detuur/spiro-server
 [4]: https://github.com/remberluyckx/Spirometer-website
-
+[5]: http://localhost:8091
